@@ -37,8 +37,13 @@ end
 
 # Define your play method below
 def play(board)
-  turn(board)
-  if loop < 8
+  move = 0
+  until move == 9
+    turn(board)
+    move += 1
+  end
+
+  
     loop += 1
     play(board)
   else
