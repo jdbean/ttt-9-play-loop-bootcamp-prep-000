@@ -42,6 +42,7 @@ def play(board, index)
     loop += 1
     play(board, index)
   else
+    return
   end
 
 
