@@ -40,7 +40,7 @@ def play(board)
   turn(board)
   if loop < 8
     loop += 1
-    play(board, index)
+    play(board)
   else
     return
   end
