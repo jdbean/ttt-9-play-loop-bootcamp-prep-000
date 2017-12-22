@@ -42,14 +42,4 @@ def play(board)
     turn(board)
     move += 1
   end
-
-  
-    loop += 1
-    play(board)
-  else
-    return
-  end
-
-
-
 end
