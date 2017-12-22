@@ -36,3 +36,11 @@ def turn(board)
 end
 
 # Define your play method below
+def play(board, index)
+  loop = 0
+  if loop == 8
+    loop += 1
+    play(board, index)
+    
+  
+end
